@@ -1,0 +1,5 @@
+let nome = prompt("Insira seu nome")
+let idade = prompt("Insira sua idade")
+let peso = prompt("Insira seu peso")
+let altura = prompt("Insira sua altura")
+let profissão = prompt("Insira sua profissão")
