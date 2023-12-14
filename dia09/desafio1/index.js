@@ -15,8 +15,8 @@ if(idade < 18){
 }
 
 let idadeEmDias = idade * 365
-let idadeEmSemanas = idadeEmDias * 7
-let idadeEmMeses = idadeEmDias * 30
+let idadeEmSemanas = idade * 52
+let idadeEmMeses = idade * 12
 
 console.log("Sua idade em dias é de " + idadeEmDias)
 console.log("Sua idade em semanas é de " + idadeEmSemanas)
