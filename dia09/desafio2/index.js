@@ -1,21 +1,26 @@
-let nome = ""
-let idade = 0
-let salarioAtual = 0
+let confirmar = "n"
+let salarioAtual;
 
-do {
-    nome = prompt("Insira seu nome")
-    idade = parseInt(prompt("Insira sua idade"))
-    salarioAtual = parseFloat(prompt("Insira seu Salário Atual"))
-
-    confirmar = prompt("Estes dados estão corretos? (s/n) " +
-    "\nNome: " + nome +
-    "\nIdade: " + idade +
-    "\nSalário Atual: " + salarioAtual)
-} while (confirmar == "n");
-
-let aumento = 0.015
-let anoAtual = 2023
-
-for (let i = anoAtual; i <= anoAtual + 10; i++) {
+while (confirmar != "s") {
+    let nome = prompt("Insira seu nome")
+    let idade = parseInt(prompt("Insira sua idade"))
+    salarioAtual = parseFloat(prompt("Insira seu salário atual, em R$"))
 
 }
+
+    confirmar = prompt("Estes dados estão corretos? (s/n) " +
+        "\nNome: " + nome +
+        "\nIdade: " + idade +
+        "\nSalário Atual: " + salarioAtual)
+
+
+    let aumento = 0.015
+    // let anoAtual = 2023
+    console.log("Previsão salarial para os proximos 10 anos:")
+
+    for (let i = anoAtual; i <= anoAtual + 10; i++) {
+        salarioAumentado = salarioAtual + salarioAtual * aumento
+        aumento *= 2
+
+        console.log(i + "-" + "R$" +salarioAumentado)
+    }
