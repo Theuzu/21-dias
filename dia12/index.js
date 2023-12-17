@@ -1,4 +1,5 @@
 let nomes = [];
+
 let senhas = [];
 let cadastros = 0;
 let continuar = true
