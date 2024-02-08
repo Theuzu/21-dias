@@ -29,3 +29,4 @@ class Computador {
 
 //exemplo
 const meuPc = new Computador("notebook", "Intel i7 9th gen", "GTX 1660ti", 512, 16, true);
+meuPc.ExibirInformações();
